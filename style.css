@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{height: 1000px;
+    
+    background-image: url(blue_bg.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: contain;
+    font-family: sans-serif;  
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 38px;
+    
+}
+nav .head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 70px;
+}
+nav .head div{
+    margin: 20px;
+    font-size: 19px;
+}
+nav .head a{
+    text-decoration: none;
+    color: black;
+}
+nav .head .active{
+    border-bottom:3px solid gray;
+}
+ nav .image button{
+    margin-right: 120px;
+    font-size: 17px;
+    width: 110px;
+    height: 38px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+ }
+/* end of nav */
+
+
+
+ /* start header */
+ header .header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+ }
+
+header .para{
+    color: rgb(97, 97, 97);
+    margin-top: 200px;
+    margin-left: 130px;
+    font-size: 30px;
+}
+header .para span{
+    color: rgb(123, 17, 123);
+}
+header .pos{
+    position: relative;
+}
+header .pos .rel{
+    position: relative;
+    
+}
+header .pos .abs1{
+    position: absolute;
+    left: 24%;
+    top: 4%;
+    
+}
+header .pos .abs2{
+    position: absolute;
+    bottom: 11%;
+    left: 20%;
+    
+}
+
+
+body .wave {
+    
+    margin-top:-166px;
+    margin-left: -509px;
+    margin-bottom: 200px; 
+    padding: 0px;
+       
+}
+
+.big{
+    position: relative;
+    
+}
+.big .road{
+    width: 975px;
+    height: 489px;
+    position: absolute;
+    top: -221px;
+    left: 287px;
+}
+.big .sec1{
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+.big .sec1 .fast{
+    margin: -150px 0px 10px 120px;
+    font-size: 22px;
+    text-align: center;
+}
+.big .sec1 .abs {
+    text-align: center;
+    font-size: 22px;
+    margin-left: 10px;
+    z-index: 5;
+    /* border: 1px solid red; */
+}
+
+
+
+.big .sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.big .sec2 .relat {
+    position: relative;
+    margin-left: 150px;
+    color: white;
+    
+}
+.big .sec2 .relat .abs{
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.big .sec2 .relat .abs p{
+    font-size: 15px;
+}
+
+.big .sec2 .rtd{
+    text-align: center;
+    font-size: 22px;
+    margin-right: 140px;
+    
+}
+body .sec3{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end ;
+    margin-bottom: -200px;
+    /* border: 1px solid red; */
+
+}
+body .sec3 .lt{
+    /* border: 1px solid yellow; */
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+body .sec3 .mid{
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    height: 388px;
+    /* border: 1px solid red; */
+    margin: 0px;
+    width: 500px;
+}
+body .sec3 .rt{
+    /* border: 1px solid green; */
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+body .sec3 .mid .fa-chevron-left{
+    position: absolute;
+    bottom:20%;
+    left: -10px;
+    
+}
+body .sec3 .mid .fa-chevron-right{
+    position: absolute;
+    bottom:20%;
+    right: -10px;
+}
+body .footer{
+    /* position: relative; */
+   height: 10px;
+}
+body .footer {
+    /* position: absolute; */
+    height: 900px;
+    width: 1519px;
+    background-image: url(Group1130.png);
+    background-repeat: no-repeat;
+    background-position: center 260px;
+    background-size: cover;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer .container{
+    margin-left: 120px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.footer .store{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 15px;
+    
+    
+}
+.footer .store div{
+    margin: 20px;
+    
+}
+
+.footer .store div button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+}
+
+.footer .social{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer .social div{
+    
+    margin-left: 20px;
+    margin-right:1px;
+    
+}
+.footer .nav{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.footer .nav div{
+    margin: 20px;
+
+}
+.footer .nav a{
+    text-decoration: none;
+    color: white;    
+}
+.footer .rt{
+    margin-right: 110px;
+    
+}
+.footer .rt img{
+    margin-bottom: -2px;
+}
